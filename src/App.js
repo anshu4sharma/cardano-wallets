@@ -604,7 +604,6 @@ export default class App extends React.Component {
           <span style={{ fontWeight: "bold" }}>Wallet name: </span>
           {this.state.walletName}
         </p>
-
         <p>
           <span style={{ fontWeight: "bold" }}>
             Network Id (0 = testnet; 1 = mainnet):{" "}
@@ -698,8 +697,6 @@ export default class App extends React.Component {
           <Tabs.Expander />
         </Tabs>
         <hr style={{ marginTop: "40px", marginBottom: "40px" }} />
-        {/*<p>{`Unsigned txBodyCborHex: ${this.state.txBodyCborHex_unsigned}`}</p>*/}
-        {/*<p>{`Signed txBodyCborHex: ${this.state.txBodyCborHex_signed}`}</p>*/}
         <p>{`Submitted Tx Hash: ${this.state.submittedTxHash}`}</p>
         <p>{this.state.submittedTxHash ? "check your wallet !" : ""}</p>
       </div>
